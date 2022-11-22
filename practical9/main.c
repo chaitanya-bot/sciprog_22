@@ -49,7 +49,7 @@ int main()
         printf("The matrix is magicsquare!!");       //I have entered a 3*3 matrix in file. for n=3, M will be 15. If all sums listed above are equal to 15, this will be printed.
     }
     else{
-        printf("The matrix is not magicsqaure");
+        printf("The matrix is not magicsqaure");     //The function magic square has O(n)=n^2
         }
     fclose(f);    
 
